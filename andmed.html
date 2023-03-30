@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andmete sisestamine</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <body>
+            <header>
+                <div class="logo">
+                    <img src="img\logo.png"/>
+                </div>
+                <h1 class="kinnitus"><b>Varjupaik</b></h1>
+            </header>
+            <main>
+                <div class="jumbotron text-center custom-jumbotron">
+                    <h2 class="display-5">selleks, et looma külastada või koju võtta sisesta enda andmed</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col pt-5">
+                            <div class="card">
+                                <h4 class="text-center pb-2 pt-2">sisesta andmed</h4>
+                                <div class="row andmed">
+                                    <label class="pr-3" for="name">Nimi: </label>
+                                    <input type="text" id="name" name="name">
+                                </div>
+                                <div class="row andmed">
+                                    <label class="pr-3" for="email">E-mail: </label>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                                <div class="row andmed">
+                                    <label class="pr-3" for="telefon">Telefon: </label>
+                                    <input type="text" id="telefon" name="telefon">
+                                </div>
+                                <div class="row andmed pt-4">
+                                    <input class="inputküsimus pb-5"type="text" id="name" name="name" placeholder="Sisesta enda küsimus">
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col pt-5">
+                            <div class="card">
+                                <h4 class="text-center pb-2 pt-2">kontakt</h4> <!--aadress e-mail telefon-->
+                                <div class="row andmed">
+                                    <label class="pr-3" for="aadress">Aadress: Ülikooli 18, 50090 Tartu  </label>
+                                </div>
+                                <div class="row andmed">
+                                    <label class="pr-3" for="meil">E-mail: email@email.ee </label>
+                                </div>
+                                <div class="row andmed">
+                                    <label class="pr-3" for="nr">Telefon: 5655788 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center pt-5">
+                    <a class="btn btn-secondary btn-lg text-center" href="kinnitus.html" role="button">saada</a>
+                </div>
+            </main>
+    </body>
+</html>
